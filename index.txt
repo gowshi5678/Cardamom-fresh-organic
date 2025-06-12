@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kerala Cardamom Farm</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header { background-color: #006400; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #004d00; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    .container { padding: 20px; }
+    .featured-img {
+      display: block; max-width: 600px; width: 100%; margin: 0 auto 30px auto;
+      border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .products { display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between; }
+    .product {
+      background: white; padding: 15px; border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1); flex: 1 1 calc(33% - 20px); box-sizing: border-box;
+    }
+    .product img { width: 100%; max-width: 300px; }
+    .product h3 { margin-top: 10px; }
+    .whatsapp-btn {
+      background-color: #25D366; color: white; padding: 10px 15px;
+      text-decoration: none; display: inline-block; border-radius: 5px; margin-top: 10px;
+    }
+    table {
+      width: 100%; max-width: 600px; margin: 30px auto;
+      border-collapse: collapse; background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    table th, table td {
+      border: 1px solid #ccc; padding: 10px; text-align: center;
+    }
+    table th { background-color: #006400; color: white; }
+    footer {
+      background-color: #004d00; color: white; text-align: center; padding: 10px;
+    }
+    @media (max-width: 768px) { .product { flex: 1 1 100%; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kerala Cardamom Farm</h1>
+    <p>Pure and fresh cardamom direct from Kerala</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#price-table">Price Table</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="container">
+    <img src="Cardamom.PNG" alt="Fresh Green Cardamom from Kerala" class="featured-img" />
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200?text=Cardamom+6mm+size" alt="Cardamom 6mm size">
+        <h3>Cardamom 6mm size - 100g</h3>
+        <p>Price: ₹370.00</p>
+        <a class="whatsapp-btn" href="https://wa.me/919787869416?text=I%20would%20like%20to%20order%20Cardamom%206mm%20size%20-%20100g" target="_blank">Order on WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200?text=Cardamom+7mm+size" alt="Cardamom 7mm size">
+        <h3>Cardamom 7mm size - 100g</h3>
+        <p>Price: ₹450.00</p>
+        <a class="whatsapp-btn" href="https://wa.me/919787869416?text=I%20would%20like%20to%20order%20Cardamom%207mm%20size%20-%20100g" target="_blank">Order on WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200?text=Cardamom+8mm+size" alt="Cardamom 8mm size">
+        <h3>Cardamom 8mm size - 100g</h3>
+        <p>Price: ₹480.00</p>
+        <a class="what
